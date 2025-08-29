@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "question": "Was möchtest du am liebsten programmieren?",
+      "answers": [
+        { "text": "Webseiten", "points": {"JavaScript": 2, "Python": 1} },
+        { "text": "Apps", "points": {"Java": 2, "Swift": 2} },
+        { "text": "Spiele", "points": {"C#": 2, "C++": 2} },
+        { "text": "Software/Tools", "points": {"Python": 2, "Java": 1} }
+      ]
+    },
+    {
+      "question": "Welche Plattform interessiert dich am meisten?",
+      "answers": [
+        { "text": "Web", "points": {"JavaScript": 2, "Python": 1} },
+        { "text": "Mobile", "points": {"Java": 2, "Swift": 2} },
+        { "text": "PC/Console", "points": {"C#": 2, "C++": 2} },
+        { "text": "Server/Backend", "points": {"Python": 2, "Java": 1} }
+      ]
+    },
+    {
+      "question": "Welche Art von Projekten motiviert dich?",
+      "answers": [
+        { "text": "Interaktive Webseiten", "points": {"JavaScript": 2} },
+        { "text": "Datenanalyse", "points": {"Python": 2} },
+        { "text": "Mobile Apps", "points": {"Java": 2, "Swift": 2} },
+        { "text": "Spieleentwicklung", "points": {"C#": 2, "C++": 2} }
+      ]
+    },
+    {
+      "question": "Welche Syntax gefällt dir am meisten?",
+      "answers": [
+        { "text": "Leicht verständlich, wenig Boilerplate", "points": {"Python": 2} },
+        { "text": "Streng typisiert", "points": {"Java": 2, "C#": 2, "C++": 2} },
+        { "text": "Locker und flexibel", "points": {"JavaScript": 2} },
+        { "text": "Objektorientiert", "points": {"Java": 1, "C#": 2} }
+      ]
+    },
+    {
+      "question": "Wie wichtig ist dir Performance?",
+      "answers": [
+        { "text": "Sehr wichtig", "points": {"C++": 2, "C#": 1, "Java": 1} },
+        { "text": "Mäßig wichtig", "points": {"Python": 1, "JavaScript": 1} },
+        { "text": "Nicht so wichtig", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Mir egal", "points": {"Java": 1, "Swift": 1} }
+      ]
+    },
+    {
+      "question": "Liebst du visuelle Gestaltung?",
+      "answers": [
+        { "text": "Ja, Frontend", "points": {"JavaScript": 2} },
+        { "text": "Nein, Backend", "points": {"Python": 2, "Java": 1} },
+        { "text": "Ja, Spiele", "points": {"C#": 2, "C++": 2} },
+        { "text": "Ja, Mobile Apps", "points": {"Swift": 2, "Java": 2} }
+      ]
+    },
+    {
+      "question": "Welche Art von Programmierung reizt dich?",
+      "answers": [
+        { "text": "Webentwicklung", "points": {"JavaScript": 2} },
+        { "text": "Daten & KI", "points": {"Python": 2} },
+        { "text": "App-Entwicklung", "points": {"Java": 2, "Swift": 2} },
+        { "text": "Spiele & Simulation", "points": {"C#": 2, "C++": 2} }
+      ]
+    },
+    {
+      "question": "Wie gehst du mit Fehlern um?",
+      "answers": [
+        { "text": "Debuggen in der Konsole", "points": {"JavaScript": 2, "Python": 1} },
+        { "text": "Unit-Tests & Logging", "points": {"Java": 2, "C#": 2} },
+        { "text": "Performance-Monitoring", "points": {"C++": 2} },
+        { "text": "Trial & Error", "points": {"Python": 2, "JavaScript": 1} }
+      ]
+    },
+    {
+      "question": "Welche Sprache hat dir bisher am meisten gefallen?",
+      "answers": [
+        { "text": "Python", "points": {"Python": 2} },
+        { "text": "JavaScript", "points": {"JavaScript": 2} },
+        { "text": "Java", "points": {"Java": 2} },
+        { "text": "C#/C++", "points": {"C#": 2, "C++": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du cross-platform entwickeln?",
+      "answers": [
+        { "text": "Ja, Web", "points": {"JavaScript": 2} },
+        { "text": "Ja, Mobile", "points": {"Java": 2, "Swift": 2} },
+        { "text": "Ja, Spiele", "points": {"C#": 2, "C++": 2} },
+        { "text": "Nein, mir reicht eine Plattform", "points": {"Python": 2} }
+      ]
+    },
+    {
+      "question": "Wie komplex dürfen Projekte sein?",
+      "answers": [
+        { "text": "Sehr komplex", "points": {"C++": 2, "Java": 1} },
+        { "text": "Mittel", "points": {"Java": 2, "C#": 2} },
+        { "text": "Einfach & schnell", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Mäßig komplex", "points": {"Swift": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du schnell Ergebnisse sehen?",
+      "answers": [
+        { "text": "Ja, sofort", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Geduldig", "points": {"C++": 2, "Java": 2} },
+        { "text": "Abhängig vom Projekt", "points": {"C#": 2, "Swift": 2} },
+        { "text": "Mir egal", "points": {"Java": 1} }
+      ]
+    },
+    {
+      "question": "Wie wichtig ist Community-Support?",
+      "answers": [
+        { "text": "Sehr wichtig", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Mittel", "points": {"Java": 2, "C#": 1} },
+        { "text": "Nicht so wichtig", "points": {"C++": 2, "Swift": 2} },
+        { "text": "Egal", "points": {"Java": 1} }
+      ]
+    },
+    {
+      "question": "Möchtest du objektorientiert arbeiten?",
+      "answers": [
+        { "text": "Ja", "points": {"Java": 2, "C#": 2, "C++": 2} },
+        { "text": "Teilweise", "points": {"Python": 1, "JavaScript": 1} },
+        { "text": "Nein", "points": {"JavaScript": 2} },
+        { "text": "Egal", "points": {"Swift": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du GUI-Entwicklung machen?",
+      "answers": [
+        { "text": "Ja, Desktop", "points": {"C#": 2, "Java": 2} },
+        { "text": "Ja, Mobile", "points": {"Swift": 2, "Java": 2} },
+        { "text": "Ja, Web", "points": {"JavaScript": 2} },
+        { "text": "Nein", "points": {"Python": 1} }
+      ]
+    },
+    {
+      "question": "Wie experimentierfreudig bist du?",
+      "answers": [
+        { "text": "Sehr", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Mittel", "points": {"Java": 2, "C#": 2} },
+        { "text": "Weniger", "points": {"C++": 2} },
+        { "text": "Egal", "points": {"Swift": 2} }
+      ]
+    },
+    {
+      "question": "Welche Tools benutzt du gern?",
+      "answers": [
+        { "text": "VS Code", "points": {"JavaScript": 2, "Python": 2} },
+        { "text": "Android Studio", "points": {"Java": 2} },
+        { "text": "Xcode", "points": {"Swift": 2} },
+        { "text": "Visual Studio", "points": {"C#": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du Spiele entwickeln?",
+      "answers": [
+        { "text": "Ja, 2D/3D", "points": {"C#": 2, "C++": 2} },
+        { "text": "Nein", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Nur Mobile Spiele", "points": {"Java": 2, "Swift": 2} },
+        { "text": "Egal", "points": {"Python": 1} }
+      ]
+    },
+    {
+      "question": "Wie wichtig ist dir einfache Syntax?",
+      "answers": [
+        { "text": "Sehr wichtig", "points": {"Python": 2} },
+        { "text": "Mittel", "points": {"JavaScript": 2} },
+        { "text": "Weniger wichtig", "points": {"C++": 2, "Java": 2} },
+        { "text": "Egal", "points": {"C#": 2, "Swift": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du Backend entwickeln?",
+      "answers": [
+        { "text": "Ja", "points": {"Python": 2, "Java": 2} },
+        { "text": "Nein", "points": {"JavaScript": 2} },
+        { "text": "Teilweise", "points": {"C#": 2} },
+        { "text": "Egal", "points": {"Swift": 1} }
+      ]
+    },
+    {
+      "question": "Liebst du Open Source?",
+      "answers": [
+        { "text": "Ja", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Teilweise", "points": {"Java": 2} },
+        { "text": "Nein", "points": {"C#": 2, "C++": 2} },
+        { "text": "Egal", "points": {"Swift": 2} }
+      ]
+    },
+    {
+      "question": "Wie wichtig ist dir Karrierepotenzial?",
+      "answers": [
+        { "text": "Sehr", "points": {"Java": 2, "Python": 2, "JavaScript": 2} },
+        { "text": "Mittel", "points": {"C#": 2} },
+        { "text": "Weniger wichtig", "points": {"C++": 2} },
+        { "text": "Egal", "points": {"Swift": 2} }
+      ]
+    },
+    {
+  "question": "Wie gehst du am liebsten an Programmieraufgaben heran?",
+  "answers": [
+    { "text": "Ich probiere schnell verschiedene Lösungen aus", "points": {"JavaScript": 2, "Python": 1} },
+    { "text": "Ich plane alles vorher genau und strukturiert", "points": {"Java": 2, "C#": 2} },
+    { "text": "Ich experimentiere mit neuen Technologien und Tools", "points": {"JavaScript": 2, "Swift": 1} },
+    { "text": "Ich arbeite gerne an komplexen Systemen und Algorithmen", "points": {"C++": 2, "Python": 2} }
+  ]
+}
+,
+    {
+      "question": "Möchtest du Bibliotheken verwenden?",
+      "answers": [
+        { "text": "Ja, viele", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Mäßig", "points": {"Java": 2, "C#": 2} },
+        { "text": "Kaum", "points": {"C++": 2} },
+        { "text": "Egal", "points": {"Swift": 2} }
+      ]
+    },
+    {
+      "question": "Welche Sprache ist dir vertrauter?",
+      "answers": [
+        { "text": "Python", "points": {"Python": 2} },
+        { "text": "JavaScript", "points": {"JavaScript": 2} },
+        { "text": "Java", "points": {"Java": 2} },
+        { "text": "C# / C++", "points": {"C#": 2, "C++": 2} }
+      ]
+    },
+    {
+      "question": "Wie wichtig ist Performance bei Webprojekten?",
+      "answers": [
+        { "text": "Sehr wichtig", "points": {"JavaScript": 2} },
+        { "text": "Mittel", "points": {"Python": 2} },
+        { "text": "Nicht wichtig", "points": {"Java": 1, "C#": 1} },
+        { "text": "Egal", "points": {"C++": 2} }
+      ]
+    },
+    {
+      "question": "Welche Sprache ist deine Lieblingssprache?",
+      "answers": [
+        { "text": "Python", "points": {"Python": 2} },
+        { "text": "JavaScript", "points": {"JavaScript": 2} },
+        { "text": "Java", "points": {"Java": 2} },
+        { "text": "C# / C++", "points": {"C#": 2, "C++": 2} }
+      ]
+    },
+    {
+      "question": "Möchtest du eher kleine oder große Projekte?",
+      "answers": [
+        { "text": "Klein & schnell", "points": {"Python": 2, "JavaScript": 2} },
+        { "text": "Groß & komplex", "points": {"Java": 2, "C++": 2} },
+        { "text": "Mittelgroß", "points": {"C#": 2, "Swift": 2} },
+        { "text": "Egal", "points": {"Python": 1} }
+      ]
+    },
+    {
+      "question": "Welche Art von Programmieraufgaben macht dir am meisten Spaß?",
+      "answers": [
+    { "text": "Logikrätsel und Algorithmen", "points": {"Python": 2, "C++": 2} },
+    { "text": "Design und Benutzeroberflächen", "points": {"JavaScript": 2, "Swift": 2} },
+    { "text": "Mobile Geräte und Apps", "points": {"Java": 2, "Swift": 2} },
+    { "text": "Große, komplexe Softwareprojekte", "points": {"Java": 2, "C#": 2} }
+  ]
+    },
+    {
+  "question": "Welche Art von Projekten würdest du am liebsten alleine umsetzen?",
+  "answers": [
+    { "text": "Kleine Webprojekte", "points": {"JavaScript": 2, "Python": 1} },
+    { "text": "Mobile Apps", "points": {"Java": 2, "Swift": 2} },
+    { "text": "Spiele oder Simulationen", "points": {"C#": 2, "C++": 2} },
+    { "text": "Werkzeuge und Tools", "points": {"Python": 2, "Java": 1} }
+  ]
+    }
+  ],
+  "languages": {
+  "JavaScript": {
+    "usage": ["Webentwicklung (Frontend)", "Node.js Backend", "interaktive Webseiten", "Web-Apps"],
+    "job": "Sehr gefragt – fast jeder Webentwickler benötigt JavaScript-Kenntnisse. Hohe Nachfrage in Startups und großen Unternehmen."
+  },
+  "Python": {
+    "usage": ["Data Science", "Machine Learning", "KI", "Webentwicklung (Django, Flask)", "Automatisierung", "Skripting"],
+    "job": "Sehr gefragt – insbesondere in Data Science, KI, Backend und Automatisierung. Einsteigerfreundlich."
+  },
+  "Java": {
+    "usage": ["Android Apps", "Enterprise Software", "Backend-Server", "große Business-Anwendungen"],
+    "job": "Hoch – besonders in Unternehmen, die stabile, skalierbare Systeme brauchen. Standard in vielen IT-Abteilungen."
+  },
+  "C#": {
+    "usage": ["Desktop-Software (Windows)", "Spieleentwicklung (Unity)", "Backend (ASP.NET)"],
+    "job": "Mittel bis hoch – stark in Spieleentwicklung und Windows-Software. Gute Nachfrage in Unternehmenssoftware."
+  },
+  "C++": {
+    "usage": ["Spieleentwicklung", "Systemsoftware", "High-Performance-Anwendungen", "Embedded Systems"],
+    "job": "Mittel – Nischenbereich für Spiele, Simulationen, Hardware-nahe Programmierung. Sehr gefragt bei spezialisierten Firmen."
+  },
+  "Swift": {
+    "usage": ["iOS Apps", "MacOS Apps"],
+    "job": "Mittel bis hoch – sehr gefragt für iOS/macOS App-Entwicklung, aber nur relevant für Apple-Ökosystem."
+  }
+}
+}
+
+

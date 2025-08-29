@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programmiersprachen-Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Start -->
+  <div id="start-screen">
+    <h1>Welche Programmiersprache passt zu dir?</h1>
+    <button id="start-btn">Quiz starten</button>
+  </div>
+
+  <!-- Quiz -->
+  <div class="quiz-container" style="display:none;">
+    <div id="question-container"></div>
+    <div id="answers-container"></div>
+    <div id="progress"></div>
+
+    <div id="button-container">
+      <button id="prev-btn">Zurück</button>
+      <button id="next-btn">Weiter</button>
+    </div>
+
+    <div id="chart-container"></div>
+  </div>
+
+  <!-- Ergebnis -->
+  <div id="result-container" style="display:none;">
+    <p>Klicke auf eine Programmiersprache für mehr Infos:</p>
+    <div id="language-buttons"></div>
+    <div id="chart-container"></div>
+  </div>
+
+  <!-- Popup -->
+  <div id="info-popup">
+    <h3 id="popup-title"></h3>
+    <ul id="popup-list"></ul>
+    <p id="popup-job"></p>
+    <button id="close-popup">Schließen</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

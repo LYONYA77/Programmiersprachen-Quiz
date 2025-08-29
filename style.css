@@ -1,0 +1,205 @@
+/* Allgemein */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Container Startscreen, Quiz und Ergebnis */
+.quiz-container, #result-container, #start-screen {
+  background: rgba(255, 255, 255, 0.95);
+  margin-top: 50px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+}
+
+/* Überschriften */
+h1 { 
+  font-size: 28px; 
+  margin-bottom: 20px; 
+  color: #1f2937; 
+}
+#question-container { 
+  font-size: 20px; 
+  margin-bottom: 25px; 
+  color: #1f2937; 
+}
+
+/* Antwort- und Start-Buttons */
+#answers-container button,
+#start-btn,
+#button-container button,
+.lang-btn {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin: 10px 0;
+  color: white;
+}
+
+/* Antwort-Buttons */
+#answers-container button {
+  background: #7c3aed;
+}
+#answers-container button:hover {
+  background: #5b21b6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+#answers-container button:disabled {
+  background: #a78bfa;
+  cursor: not-allowed;
+}
+
+/* Start-Button */
+#start-btn {
+  background: #7c3aed;
+}
+#start-btn:hover {
+  background: #5b21b6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Navigation Buttons: Weiter, Zurück, Überspringen */
+#next-btn { background: #10b981; }
+#next-btn:hover { background: #059669; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+#prev-btn { background: #fbbf24; }
+#prev-btn:hover { background: #f59e0b; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+
+/* Container für Buttons */
+#button-container button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  color: #6b7280;
+}
+
+
+
+/* Fortschrittsanzeige */
+#progress { 
+  margin-top: 10px; 
+  font-size: 14px; 
+  color: #4b5563; 
+}
+
+/* Balkendiagramm */
+#chart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 30px;
+  max-height: 180px;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.bar {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 12px 12px 0 0;
+  transition: height 0.5s, background 0.3s;
+  background: #8b5cf6;
+  max-height: 180px;
+}
+
+.bar span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 12px;
+  margin-top: 6px;
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Sprachinfo-Buttons */
+.lang-btn {
+  background: #7c3aed;
+  color: white;
+  border-radius: 14px;
+  padding: 12px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+}
+.lang-btn:hover {
+  background: #5b21b6;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Popup */
+#info-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+  z-index: 50;
+  display: none;
+  max-width: 500px;
+  text-align: left;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  width: 300px;
+  max-width: 90%;
+  display: none;
+  z-index: 1000;
+}
+
+#close-popup {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #8b5cf6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#close-popup:hover {
+  background: #7c3aed;
+}
+
+
+
+
